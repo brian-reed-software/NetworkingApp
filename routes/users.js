@@ -1,3 +1,4 @@
+
 const User = require("../models/User");
 const router = require("express").Router();
 const bcrypt = require("bcrypt");
@@ -95,4 +96,4 @@ router.put("/:id/unfollow", async (req, res) => {
     }
   });
 
-module.exports = router;
+module.exports = router
